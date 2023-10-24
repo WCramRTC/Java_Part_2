@@ -8,7 +8,7 @@ package com.wcram.java_part_2;
  *
  * @author WCram
  */
-public class Animal {
+public class Animal implements IAnimal   {
     
     // Fields
     String _name;
@@ -79,6 +79,16 @@ public class Animal {
     // Methods
     public void Run() {
         System.out.println(this._name + " is running on " + this._legs );
+    }
+
+    @Override
+    public void animalSound() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void run() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
 } // class

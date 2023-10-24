@@ -19,6 +19,8 @@ public class Dog extends Animal {
         Pointy
     }
     
+    static String _face;
+    
     // The super class is the parent class
     // C# equilivant base
     
